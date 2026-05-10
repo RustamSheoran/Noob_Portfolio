@@ -4,6 +4,7 @@ import LocalFont from "@next/font/local";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://rustamsheoran.com"),
   title: {
     default: "Rustam Sheoran | Backend & Systems Engineer",
     template: "%s | Rustam Sheoran",
